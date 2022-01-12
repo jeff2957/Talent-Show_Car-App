@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E508FC92781A82F00311C34 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E508FC82781A82F00311C34 /* Task.swift */; };
+		9E611AB3278B226A009CEC65 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E611AB2278B226A009CEC65 /* Dashboard.swift */; };
+		9E611AB6278B31E3009CEC65 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 9E611AB5278B31E3009CEC65 /* SwiftUICharts */; };
+		9E727FB22781DF67006C7825 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E727FB12781DF67006C7825 /* API.swift */; };
+		9EAD2CE52780593E004FDE99 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CE42780593E004FDE99 /* Tests_iOS.swift */; };
+		9EAD2CE72780593E004FDE99 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CE62780593E004FDE99 /* Tests_iOSLaunchTests.swift */; };
+		9EAD2CF12780593E004FDE99 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CF02780593E004FDE99 /* Tests_macOS.swift */; };
+		9EAD2CF32780593E004FDE99 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CF22780593E004FDE99 /* Tests_macOSLaunchTests.swift */; };
+		9EAD2CF42780593E004FDE99 /* CarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CCC2780593C004FDE99 /* CarAppApp.swift */; };
+		9EAD2CF52780593E004FDE99 /* CarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CCC2780593C004FDE99 /* CarAppApp.swift */; };
+		9EAD2CF62780593E004FDE99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CCD2780593C004FDE99 /* ContentView.swift */; };
+		9EAD2CF72780593E004FDE99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2CCD2780593C004FDE99 /* ContentView.swift */; };
+		9EAD2CF82780593E004FDE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD2CCE2780593E004FDE99 /* Assets.xcassets */; };
+		9EAD2CF92780593E004FDE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD2CCE2780593E004FDE99 /* Assets.xcassets */; };
+		9EAD2D0B27805A1D004FDE99 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2D0A27805A1D004FDE99 /* Home.swift */; };
+		9EAD2D0D27805AC7004FDE99 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2D0C27805AC7004FDE99 /* CustomDatePicker.swift */; };
+		9EAD2D0F278061DC004FDE99 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD2D0E278061DC004FDE99 /* DateValue.swift */; };
+		9EDE545E278B0B3500AEAD3C /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE545D278B0B3500AEAD3C /* sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EAD2CE12780593E004FDE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EAD2CC72780593C004FDE99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EAD2CD22780593E004FDE99;
+			remoteInfo = "CarApp (iOS)";
+		};
+		9EAD2CED2780593E004FDE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EAD2CC72780593C004FDE99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EAD2CD82780593E004FDE99;
+			remoteInfo = "CarApp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E508FC82781A82F00311C34 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		9E611AB2278B226A009CEC65 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		9E727FB12781DF67006C7825 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		9EAD2CCC2780593C004FDE99 /* CarAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAppApp.swift; sourceTree = "<group>"; };
+		9EAD2CCD2780593C004FDE99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EAD2CCE2780593E004FDE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EAD2CD32780593E004FDE99 /* CarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAD2CD92780593E004FDE99 /* CarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAD2CDB2780593E004FDE99 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9EAD2CE02780593E004FDE99 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAD2CE42780593E004FDE99 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		9EAD2CE62780593E004FDE99 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		9EAD2CEC2780593E004FDE99 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAD2CF02780593E004FDE99 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		9EAD2CF22780593E004FDE99 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		9EAD2D0A27805A1D004FDE99 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9EAD2D0C27805AC7004FDE99 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		9EAD2D0E278061DC004FDE99 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		9EDE545D278B0B3500AEAD3C /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EAD2CD02780593E004FDE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E611AB6278B31E3009CEC65 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CD62780593E004FDE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CDD2780593E004FDE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CE92780593E004FDE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885FCDA1718B870519B358F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9EAD2CC62780593C004FDE99 = {
+			isa = PBXGroup;
+			children = (
+				9EAD2CCB2780593C004FDE99 /* Shared */,
+				9EAD2CDA2780593E004FDE99 /* macOS */,
+				9EAD2CE32780593E004FDE99 /* Tests iOS */,
+				9EAD2CEF2780593E004FDE99 /* Tests macOS */,
+				9EAD2CD42780593E004FDE99 /* Products */,
+				885FCDA1718B870519B358F2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9EAD2CCB2780593C004FDE99 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE545D278B0B3500AEAD3C /* sound.mp3 */,
+				9EAD2D09278059D3004FDE99 /* Model */,
+				9EAD2D08278059C4004FDE99 /* View */,
+				9EAD2CCC2780593C004FDE99 /* CarAppApp.swift */,
+				9EAD2CCD2780593C004FDE99 /* ContentView.swift */,
+				9EAD2CCE2780593E004FDE99 /* Assets.xcassets */,
+				9E727FB12781DF67006C7825 /* API.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9EAD2CD42780593E004FDE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD2CD32780593E004FDE99 /* CarApp.app */,
+				9EAD2CD92780593E004FDE99 /* CarApp.app */,
+				9EAD2CE02780593E004FDE99 /* Tests iOS.xctest */,
+				9EAD2CEC2780593E004FDE99 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EAD2CDA2780593E004FDE99 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD2CDB2780593E004FDE99 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		9EAD2CE32780593E004FDE99 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD2CE42780593E004FDE99 /* Tests_iOS.swift */,
+				9EAD2CE62780593E004FDE99 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		9EAD2CEF2780593E004FDE99 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD2CF02780593E004FDE99 /* Tests_macOS.swift */,
+				9EAD2CF22780593E004FDE99 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9EAD2D08278059C4004FDE99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD2D0A27805A1D004FDE99 /* Home.swift */,
+				9EAD2D0C27805AC7004FDE99 /* CustomDatePicker.swift */,
+				9E611AB2278B226A009CEC65 /* Dashboard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EAD2D09278059D3004FDE99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EAD2D0E278061DC004FDE99 /* DateValue.swift */,
+				9E508FC82781A82F00311C34 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EAD2CD22780593E004FDE99 /* CarApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAD2CFC2780593E004FDE99 /* Build configuration list for PBXNativeTarget "CarApp (iOS)" */;
+			buildPhases = (
+				9EAD2CCF2780593E004FDE99 /* Sources */,
+				9EAD2CD02780593E004FDE99 /* Frameworks */,
+				9EAD2CD12780593E004FDE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarApp (iOS)";
+			packageProductDependencies = (
+				9E611AB5278B31E3009CEC65 /* SwiftUICharts */,
+			);
+			productName = "CarApp (iOS)";
+			productReference = 9EAD2CD32780593E004FDE99 /* CarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EAD2CD82780593E004FDE99 /* CarApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAD2CFF2780593E004FDE99 /* Build configuration list for PBXNativeTarget "CarApp (macOS)" */;
+			buildPhases = (
+				9EAD2CD52780593E004FDE99 /* Sources */,
+				9EAD2CD62780593E004FDE99 /* Frameworks */,
+				9EAD2CD72780593E004FDE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarApp (macOS)";
+			productName = "CarApp (macOS)";
+			productReference = 9EAD2CD92780593E004FDE99 /* CarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EAD2CDF2780593E004FDE99 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAD2D022780593E004FDE99 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				9EAD2CDC2780593E004FDE99 /* Sources */,
+				9EAD2CDD2780593E004FDE99 /* Frameworks */,
+				9EAD2CDE2780593E004FDE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EAD2CE22780593E004FDE99 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 9EAD2CE02780593E004FDE99 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9EAD2CEB2780593E004FDE99 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAD2D052780593E004FDE99 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				9EAD2CE82780593E004FDE99 /* Sources */,
+				9EAD2CE92780593E004FDE99 /* Frameworks */,
+				9EAD2CEA2780593E004FDE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EAD2CEE2780593E004FDE99 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 9EAD2CEC2780593E004FDE99 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EAD2CC72780593C004FDE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9EAD2CD22780593E004FDE99 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9EAD2CD82780593E004FDE99 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9EAD2CDF2780593E004FDE99 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9EAD2CD22780593E004FDE99;
+					};
+					9EAD2CEB2780593E004FDE99 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9EAD2CD82780593E004FDE99;
+					};
+				};
+			};
+			buildConfigurationList = 9EAD2CCA2780593C004FDE99 /* Build configuration list for PBXProject "CarApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EAD2CC62780593C004FDE99;
+			packageReferences = (
+				9E611AB4278B31E3009CEC65 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 9EAD2CD42780593E004FDE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EAD2CD22780593E004FDE99 /* CarApp (iOS) */,
+				9EAD2CD82780593E004FDE99 /* CarApp (macOS) */,
+				9EAD2CDF2780593E004FDE99 /* Tests iOS */,
+				9EAD2CEB2780593E004FDE99 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EAD2CD12780593E004FDE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDE545E278B0B3500AEAD3C /* sound.mp3 in Resources */,
+				9EAD2CF82780593E004FDE99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CD72780593E004FDE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAD2CF92780593E004FDE99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CDE2780593E004FDE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CEA2780593E004FDE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EAD2CCF2780593E004FDE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAD2D0D27805AC7004FDE99 /* CustomDatePicker.swift in Sources */,
+				9EAD2CF62780593E004FDE99 /* ContentView.swift in Sources */,
+				9E611AB3278B226A009CEC65 /* Dashboard.swift in Sources */,
+				9EAD2D0B27805A1D004FDE99 /* Home.swift in Sources */,
+				9EAD2CF42780593E004FDE99 /* CarAppApp.swift in Sources */,
+				9E508FC92781A82F00311C34 /* Task.swift in Sources */,
+				9EAD2D0F278061DC004FDE99 /* DateValue.swift in Sources */,
+				9E727FB22781DF67006C7825 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CD52780593E004FDE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAD2CF72780593E004FDE99 /* ContentView.swift in Sources */,
+				9EAD2CF52780593E004FDE99 /* CarAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CDC2780593E004FDE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAD2CE72780593E004FDE99 /* Tests_iOSLaunchTests.swift in Sources */,
+				9EAD2CE52780593E004FDE99 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD2CE82780593E004FDE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAD2CF32780593E004FDE99 /* Tests_macOSLaunchTests.swift in Sources */,
+				9EAD2CF12780593E004FDE99 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EAD2CE22780593E004FDE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EAD2CD22780593E004FDE99 /* CarApp (iOS) */;
+			targetProxy = 9EAD2CE12780593E004FDE99 /* PBXContainerItemProxy */;
+		};
+		9EAD2CEE2780593E004FDE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EAD2CD82780593E004FDE99 /* CarApp (macOS) */;
+			targetProxy = 9EAD2CED2780593E004FDE99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9EAD2CFA2780593E004FDE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EAD2CFB2780593E004FDE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9EAD2CFD2780593E004FDE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4QYCQRCA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = talentShowFour.CarApp;
+				PRODUCT_NAME = CarApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EAD2CFE2780593E004FDE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4QYCQRCA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = talentShowFour.CarApp;
+				PRODUCT_NAME = CarApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EAD2D002780593E004FDE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = talentShowFour.CarApp;
+				PRODUCT_NAME = CarApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9EAD2D012780593E004FDE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = talentShowFour.CarApp;
+				PRODUCT_NAME = CarApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9EAD2D032780593E004FDE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "talentShowFour.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CarApp (iOS)";
+			};
+			name = Debug;
+		};
+		9EAD2D042780593E004FDE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "talentShowFour.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CarApp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EAD2D062780593E004FDE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "talentShowFour.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CarApp (macOS)";
+			};
+			name = Debug;
+		};
+		9EAD2D072780593E004FDE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "talentShowFour.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CarApp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EAD2CCA2780593C004FDE99 /* Build configuration list for PBXProject "CarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAD2CFA2780593E004FDE99 /* Debug */,
+				9EAD2CFB2780593E004FDE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAD2CFC2780593E004FDE99 /* Build configuration list for PBXNativeTarget "CarApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAD2CFD2780593E004FDE99 /* Debug */,
+				9EAD2CFE2780593E004FDE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAD2CFF2780593E004FDE99 /* Build configuration list for PBXNativeTarget "CarApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAD2D002780593E004FDE99 /* Debug */,
+				9EAD2D012780593E004FDE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAD2D022780593E004FDE99 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAD2D032780593E004FDE99 /* Debug */,
+				9EAD2D042780593E004FDE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAD2D052780593E004FDE99 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAD2D062780593E004FDE99 /* Debug */,
+				9EAD2D072780593E004FDE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E611AB4278B31E3009CEC65 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E611AB5278B31E3009CEC65 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E611AB4278B31E3009CEC65 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9EAD2CC72780593C004FDE99 /* Project object */;
+}
